@@ -1,0 +1,387 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1686981457591864, "dur": 840225, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686981457592151, "dur": 9173, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686981457601329, "dur": 821765, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686981458423099, "dur": 8987, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686981458433484, "dur": 52, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686981457649242, "dur":2802, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981457652057, "dur":220, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686981457652307, "dur":32, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686981457652339, "dur":641, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686981457653037, "dur":1135, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981457654172, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458387863, "dur":158, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458388021, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458388037, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458388040, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458388061, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458388063, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458388077, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458388079, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458388087, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458388089, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458388098, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458388100, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458388107, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458388109, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458388116, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458388119, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458388128, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458388150, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458388188, "dur":4474, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686981457653480, "dur":721, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686981457654204, "dur":7258, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686981457661478, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686981457661483, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686981457661577, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686981457661580, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686981457661780, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1686981457662145, "dur":610, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686981457662756, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686981457662928, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686981457663141, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon.exe" }}
+,{ "pid":12345, "tid":1, "ts":1686981457663512, "dur":527, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686981457664041, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686981457664374, "dur":1162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686981457665731, "dur":4017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686981457669749, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686981457670062, "dur":645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686981457670707, "dur":629, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686981457671337, "dur":395150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686981458066488, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686981458066697, "dur":321211, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457653480, "dur":727, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457654207, "dur":7424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457661632, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686981457662004, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457662238, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686981457662548, "dur":753, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457663302, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457663589, "dur":568, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457664160, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457664390, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457664663, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457665055, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457665132, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457665203, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457665268, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457665338, "dur":533, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457665872, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457666261, "dur":1489, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457667751, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457668146, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457668405, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457668675, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457668852, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457669086, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457669231, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457669310, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457669441, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457669538, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457669699, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457669860, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457670003, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457670141, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457670274, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457670669, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457670937, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457671077, "dur":405, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457671484, "dur":1410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/Unity.ProGrids.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457672894, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457673029, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457673128, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457673191, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457673254, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457673326, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457673389, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457673450, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457673528, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457673583, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457673663, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457673729, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457673811, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457673896, "dur":2798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457676695, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457676859, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457676940, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457677010, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457677073, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457677125, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457677196, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457677264, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457677319, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457677369, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457677435, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457677483, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457677539, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457677597, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457677656, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457677705, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457677761, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457677810, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457677862, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457677914, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457677968, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457678024, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457678082, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457678133, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457678187, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457678247, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457678299, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457678352, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981457678406, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981457678462, "dur":331464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686981458009926, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981458010059, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686981458010144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981458010170, "dur":10595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686981458020839, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1686981458020990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981458021003, "dur":2655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1686981458023730, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686981458023798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981458023807, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686981458025674, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1686981458025755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981458025766, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1686981458027751, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1686981458027841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981458027852, "dur":2997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1686981458030978, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1686981458031180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981458031192, "dur":6558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1686981458037839, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1686981458038137, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686981458038214, "dur":349582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457653524, "dur":697, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457654222, "dur":7340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457661563, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1686981457661796, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457662104, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686981457662431, "dur":619, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457663052, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1686981457663418, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457663597, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686981457664060, "dur":563, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457664624, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686981457664759, "dur":263, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457665022, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686981457665108, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457665178, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686981457665250, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457665320, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686981457665739, "dur":292, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457666032, "dur":1524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686981457667556, "dur":464, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457668022, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686981457668295, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457668487, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686981457668572, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457668835, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686981457669004, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457669220, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686981457669305, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457669425, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686981457669513, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457669589, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686981457669734, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457669878, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686981457669971, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457670065, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686981457670270, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457670426, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686981457670634, "dur":307, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457670944, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686981457671151, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457671402, "dur":186084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686981457857486, "dur":516, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457858005, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":3, "ts":1686981457858118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457858139, "dur":3409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":3, "ts":1686981457861720, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686981457861980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457861989, "dur":4392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686981457866467, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686981457866537, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457866548, "dur":76754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686981457943403, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686981457943512, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457943522, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686981457946511, "dur":2090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686981457948610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686981457948619, "dur":182643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686981458131375, "dur":256541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686981457653583, "dur":658, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686981457654242, "dur":7230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686981457661478, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686981457661714, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686981457661867, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1686981457662112, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686981457662350, "dur":774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686981457663125, "dur":350, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686981457663476, "dur":4206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686981457667682, "dur":616, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686981457668301, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686981457668507, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686981457668603, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686981457668875, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686981457669093, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686981457669385, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686981457669511, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686981457669609, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686981457669805, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686981457669966, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686981457670054, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686981457670365, "dur":1060, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686981457671426, "dur":586421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686981458257848, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686981458258034, "dur":129732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457653621, "dur":629, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457654250, "dur":7214, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457661479, "dur":515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1686981457661994, "dur":252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457662247, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1686981457662542, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457662638, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1686981457662741, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457662870, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686981457662971, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457663233, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1686981457663456, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457663794, "dur":881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686981457664675, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457664877, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686981457664988, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457665092, "dur":4694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686981457669796, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457670063, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686981457670257, "dur":324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457670582, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686981457670880, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457671003, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686981457671165, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457671312, "dur":182547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686981457853860, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457854007, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1686981457854097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457855528, "dur":5746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1686981457861383, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1686981457861485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457861546, "dur":82224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1686981457943846, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1686981457943916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457943924, "dur":4388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1686981457948390, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1686981457948470, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981457948480, "dur":87588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1686981458036502, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1686981458036818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686981458036830, "dur":8075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1686981458044984, "dur":342903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457653655, "dur":601, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457654257, "dur":7218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457661479, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1686981457661668, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457661878, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1686981457662274, "dur":617, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457662893, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686981457663059, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457663246, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686981457663531, "dur":769, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457664301, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686981457664653, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457664837, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686981457664926, "dur":380, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457665307, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686981457665601, "dur":389, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457665991, "dur":734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686981457666725, "dur":918, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457667645, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686981457668129, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457668321, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686981457668489, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457668571, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686981457668749, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457668927, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686981457669097, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457669259, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686981457669359, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457669478, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686981457669576, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457669767, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686981457669944, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457670030, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686981457670260, "dur":450, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457670711, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686981457670903, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457671065, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686981457671287, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457671396, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686981457671659, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981457671865, "dur":577576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686981458249442, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686981458249648, "dur":138142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981457653693, "dur":571, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981457654264, "dur":7205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981457661480, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1686981457661700, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981457661969, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1686981457662343, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981457662575, "dur":667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1686981457663243, "dur":423, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981457663667, "dur":6141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686981457669808, "dur":383, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981457670192, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686981457670443, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981457670585, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686981457670906, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981457671059, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686981457671198, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981457671328, "dur":329175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686981458000503, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981458000673, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1686981458000782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981458000807, "dur":12367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1686981458013337, "dur":1032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1686981458014382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981458014396, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1686981458016597, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1686981458016935, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981458017030, "dur":1225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1686981458018256, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981458018388, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1686981458018488, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981458018500, "dur":4736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1686981458023344, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1686981458023438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981458023451, "dur":2671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1686981458026192, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1686981458026284, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981458026293, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1686981458027973, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1686981458028070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981458028079, "dur":2986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1686981458031285, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1686981458031482, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686981458031490, "dur":6505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1686981458038119, "dur":349643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686981457653751, "dur":516, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686981457654267, "dur":7209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686981457661479, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1686981457661888, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686981457662115, "dur":960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1686981457663076, "dur":519, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686981457663596, "dur":716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686981457664313, "dur":481, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686981457664796, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686981457664909, "dur":471, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686981457665381, "dur":722104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/LG/Desktop/uni/3-1/2DContentsProgramming/SwuBurger/HamburgerTycoon_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686981458387486, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686981458387664, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1686981458387665, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686981458396206, "dur":2916, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1686981458433767, "dur": 1859, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686981458433441, "dur": 2241, "ph": "X", "name": "Write chrome-trace events", "args": {} },
