@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 56fcc2461ab913241a171897730f2469
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - burgerMaking: {fileID: 5935019233377178751, guid: 385d1c7183b1d0f499977ded7cafcb88, type: 3}
+  - breadTopPrefab: {fileID: 1769119067198979927, guid: 2e974d6b09d03e448afbbcca5fb29681, type: 3}
+  - breadBottomPrefab: {fileID: 1002431418535301549, guid: e18accfdbbe239f4cb9fd474ff64032f, type: 3}
+  - lettucePrefab: {fileID: 368490755867068545, guid: 18ffab008af1357498480c9f1c54049c, type: 3}
+  - pattyPrefab: {fileID: 8371976046214573753, guid: 3ce9a100d11f9bf49ad103ef8e4c03be, type: 3}
+  - cheesePrefab: {fileID: 5405913504125158554, guid: 792629f819079a142a6b6cd570ea184b, type: 3}
+  - tomatoPrefab: {fileID: 8297952788359633625, guid: ae80bc9a3224f1d4daeea23514f709ae, type: 3}
+  - selectedIngredient: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

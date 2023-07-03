@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9397a9da4c2bc9c49a695f6826ad0653
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - soundDirector: {instanceID: 0}
+  - cokePrefab: {fileID: 3893162919745699061, guid: b6a8b3bea26335e4abb4a0d83e4f9231, type: 3}
+  - friesPrefab: {fileID: 8802233995722157560, guid: 70d8213aa3852e240ade716a5b58578a, type: 3}
+  - packedFriesPrefab: {fileID: 7843197327360128519, guid: 4409e524b40495e49bee6f96167d2977, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

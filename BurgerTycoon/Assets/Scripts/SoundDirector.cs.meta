@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 78e8d5963ae4b604a9746f2a43d88230
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - startBGM: {fileID: 8300000, guid: 3f27ba70e96fcdf46bf06ac05553487f, type: 3}
+  - BGM: {fileID: 8300000, guid: e811006fc0d8ddd45b69b2b822e8cd53, type: 3}
+  - customerComingSound: {fileID: 8300000, guid: 488adb98264c46a47b6ba57ade0ad214, type: 3}
+  - dropIngredientSound: {fileID: 8300000, guid: 1d45538f287e2e141920af52df8560e8, type: 3}
+  - deleteIngredientSound: {fileID: 8300000, guid: bdb64b403452e294ba776a98fa2fa248, type: 3}
+  - BurgerResultBellSound: {fileID: 8300000, guid: f64ab5386c5841449844214ff42111d3, type: 3}
+  - tempSound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
